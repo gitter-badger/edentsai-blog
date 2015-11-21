@@ -72,12 +72,28 @@ pagination_dir: page
 clean_css:
   exclude:
 
+### hexo-generator-archive: https://github.com/hexojs/hexo-generator-archive
+archive_generator:
+  per_page: 10
+  yearly: true
+  monthly: true
+
+### hexo-generator-category: https://github.com/hexojs/hexo-generator-category
+category_generator:
+  per_page: 10
+
+
 ### hexo-generator-feed: https://github.com/hexojs/hexo-generator-feed
 feed:
   type: atom
   path: atom.xml
   limit: 20
   hub:
+
+### hexo-generator-index: https://github.com/hexojs/hexo-generator-index
+index_generator:
+  per_page: 10
+  order_by: -date
 
 ### hexo-generator-search: https://github.com/PaicHyperionDev/hexo-generator-search
 search:
@@ -87,6 +103,10 @@ search:
 ### hexo-generator-seo-friendly-sitemap: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:
   path: sitemap.xml
+
+### hexo-generator-tag: https://github.com/hexojs/hexo-generator-tag
+tag_generator:
+  per_page: 10
 
 ### hexo-html-minifier: https://github.com/hexojs/hexo-html-minifier
 html_minifier:
