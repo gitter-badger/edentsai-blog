@@ -79,6 +79,11 @@ feed:
   limit: 20
   hub:
 
+### hexo-generator-search: https://github.com/PaicHyperionDev/hexo-generator-search
+search:
+  path: search.xml
+  field: post
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
