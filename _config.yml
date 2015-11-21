@@ -68,6 +68,10 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+### hexo-clean-css: https://github.com/hexojs/hexo-clean-css
+clean_css:
+  exclude:
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
