@@ -92,6 +92,15 @@ sitemap:
 html_minifier:
   exclude:
 
+### hexo-imagemin: https://github.com/vseventer/hexo-imagemin
+imagemin:
+  enable     : true
+  interlaced : false
+  multipass  : false
+  optimizationLevel: 2
+  pngquant   : false
+  progressive: false
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
