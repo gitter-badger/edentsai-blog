@@ -105,6 +105,13 @@ imagemin:
 toc:
   maxDepth: 3
 
+### hexo-uglify: https://github.com/hexojs/hexo-uglify
+uglify:
+  mangle: true
+  output:
+  compress:
+  exclude:
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
