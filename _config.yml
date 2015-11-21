@@ -101,6 +101,10 @@ imagemin:
   pngquant   : false
   progressive: false
 
+### hexo-toc: https://github.com/bubkoo/hexo-toc
+toc:
+  maxDepth: 3
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
