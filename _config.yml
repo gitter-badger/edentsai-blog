@@ -88,6 +88,10 @@ search:
 sitemap:
   path: sitemap.xml
 
+### hexo-html-minifier: https://github.com/hexojs/hexo-html-minifier
+html_minifier:
+  exclude:
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
