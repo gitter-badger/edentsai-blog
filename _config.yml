@@ -135,6 +135,9 @@ uglify:
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
+## Disqus
+disqus_shortname: edentsai
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
