@@ -84,6 +84,10 @@ search:
   path: search.xml
   field: post
 
+### hexo-generator-seo-friendly-sitemap: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+  path: sitemap.xml
+
 ## Themes: http://hexo.io/themes/
 theme: icarus
 
